@@ -4,8 +4,9 @@ from tkinter import messagebox
 import pymysql
 
 # Add your own database name and password here to reflect in the code
-mypass = "root"
+mypass = "0000"
 mydatabase="db"
+
 
 con = pymysql.connect(host="localhost",user="root",password=mypass,database=mydatabase)
 cur = con.cursor()
